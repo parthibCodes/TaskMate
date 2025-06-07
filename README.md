@@ -1,52 +1,53 @@
-GPT TaskMate is an intelligent command-line task manager powered by Google Gemini AI. It transforms your natural language task descriptions into organized, actionable tasks — complete with titles, priorities, deadlines, and step-by-step breakdowns. When you mark tasks complete, it motivates you with encouraging messages to keep you going.
+Welcome to **GPT TaskMate** — your smart, AI-powered command-line task manager that turns your natural language task descriptions into clear, organized action plans.
 
-**Key Features:**
+With GPT TaskMate, simply describe your tasks in plain English, and watch as the powerful Google Gemini AI breaks them down into structured tasks complete with titles, deadlines, priorities, and step-by-step instructions. Need motivation? When you mark tasks complete, GPT TaskMate cheers you on with encouraging messages to keep you going strong.
 
-*   Add tasks using simple natural language input
-    
-*   Automatic parsing into structured task details (title, priority, due date, steps)
-    
-*   View all tasks with clear status indicators
-    
-*   Mark tasks as complete and receive motivational feedback
-    
+### Key Features
 
-**Requirements:**
-
-*   Python 3.8 or newer
+*   **Natural Language Input:** Add tasks by typing simple sentences—no need to fill complicated forms.
     
-*   Packages: google-generativeai, python-dotenv
+*   **Structured Task Parsing:** Automatically extracts title, priority (low/medium/high), due date, and detailed steps.
+    
+*   **Task Overview:** View all your tasks with clear status icons and important details at a glance.
+    
+*   **Completion & Motivation:** Mark tasks complete and receive uplifting motivational messages.
     
 
-**Setup Instructions:**
+### Requirements
 
-1.  Clone the repository
+*   Python 3.8 or higher
     
-2.  Create and activate a Python virtual environment
-    
-3.  Install dependencies via pip install -r requirements.txt
-    
-4.  Add your Gemini API key in a .env file as GEMINI\_API\_KEY
+*   Python packages: google-generativeai, python-dotenv
     
 
-**How to Use:**
+### Setup & Installation
 
-*   Run main.py to launch the interactive CLI menu
+1.  Clone this repository to your local machine.
     
-*   Choose options to add tasks, view your list, mark completion, or exit
+2.  Create and activate a Python virtual environment.
     
-*   Example input: "Finish the quarterly report by next Friday with high priority."
-    
-
-**Important Notes:**
-
-*   Ensure your Gemini API key has adequate quota to prevent rate limit errors
-    
-*   Modify prompts or features as needed for customization
+3.  Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+```
     
 
-**License:** MIT
+### How to Use
 
-**Support:** For issues or questions, open a ticket in the repository.
+*   ```bash
+    python main.py
+    ```
+    
+*   Follow the interactive menu to add, view, and complete tasks.
+    
+*   "Prepare the project presentation by next Monday with high priority."
+    
 
-Enjoy efficient and motivated task management with GPT TaskMate!
+### Notes
+
+*   Make sure your Gemini API key has sufficient quota to avoid rate-limit errors.
+    
+*   Customize prompts or extend features to fit your personal workflow.
+    
+
+Enjoy a more productive and motivated way to manage your tasks with **GPT TaskMate** — where AI meets your to-do list!
